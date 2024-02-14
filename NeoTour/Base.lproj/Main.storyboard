@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Heavy.otf">
+            <string>SFProDisplay-Heavy</string>
+        </array>
+        <array key="SF-Pro-Display-Light.otf">
+            <string>SFProDisplay-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NeoTour" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding" translatesAutoresizingMaskIntoConstraints="NO" id="gzH-O8-3fy">
+                                <rect key="frame" x="0.0" y="-15" width="393" height="480"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x88-2X-bfv">
+                                <rect key="frame" x="16" y="490" width="361" height="86"/>
+                                <string key="text">Winter 
+Vacation Trips</string>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Heavy" family="SF Pro Display" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ou3-IX-s1l">
+                                <rect key="frame" x="16" y="596" width="361" height="57.333333333333371"/>
+                                <string key="text">Enjoy your winter vacations with warmth
+and amazing sightseeing on the mountains.
+Enjoy the best experience with us!</string>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Light" family="SF Pro Display" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wog-7N-VLq">
+                                <rect key="frame" x="16" y="701" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BKk-UA-T5k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x88-2X-bfv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8ol-FS-IkB"/>
+                            <constraint firstItem="ou3-IX-s1l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E6a-4u-9N9"/>
+                            <constraint firstItem="ou3-IX-s1l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Mtu-PH-El7"/>
+                            <constraint firstItem="gzH-O8-3fy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W5F-Zs-JyP"/>
+                            <constraint firstItem="x88-2X-bfv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bZR-4Z-o8C"/>
+                            <constraint firstItem="x88-2X-bfv" firstAttribute="top" secondItem="gzH-O8-3fy" secondAttribute="bottom" constant="25" id="lz0-np-S4A"/>
+                            <constraint firstItem="gzH-O8-3fy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="m69-He-2vG"/>
+                            <constraint firstItem="ou3-IX-s1l" firstAttribute="top" secondItem="x88-2X-bfv" secondAttribute="bottom" constant="20" id="qn0-uV-Q4s"/>
+                            <constraint firstItem="gzH-O8-3fy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-15" id="ujR-MK-9KF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="Wog-7N-VLq" id="Iel-zn-sWR"/>
+                        <outlet property="desc" destination="ou3-IX-s1l" id="fWK-XD-kq5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onboarding" width="415" height="480"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
