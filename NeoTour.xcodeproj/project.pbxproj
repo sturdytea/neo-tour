@@ -62,6 +62,16 @@
 		B8EB515B2B7CB5EE001C7B73 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8EB512B2B7CB5EE001C7B73 /* SF-Pro-Rounded-Bold.otf */; };
 		B8EB515C2B7CB5EE001C7B73 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8EB512C2B7CB5EE001C7B73 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		B8EB51632B7CB708001C7B73 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB51622B7CB708001C7B73 /* MainViewController.swift */; };
+		B8EB51782B7E0C63001C7B73 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB51762B7E0C63001C7B73 /* CollectionTableViewCell.swift */; };
+		B8EB51792B7E0C63001C7B73 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EB51772B7E0C63001C7B73 /* CollectionTableViewCell.xib */; };
+		B8EB517C2B7E0D39001C7B73 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB517A2B7E0D39001C7B73 /* CategoriesCollectionViewCell.swift */; };
+		B8EB517D2B7E0D39001C7B73 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EB517B2B7E0D39001C7B73 /* CategoriesCollectionViewCell.xib */; };
+		B8EB51802B7E0D4C001C7B73 /* PlacesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB517E2B7E0D4C001C7B73 /* PlacesCollectionViewCell.swift */; };
+		B8EB51812B7E0D4C001C7B73 /* PlacesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8EB517F2B7E0D4C001C7B73 /* PlacesCollectionViewCell.xib */; };
+		B8EB51832B7E0EBF001C7B73 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB51822B7E0EBF001C7B73 /* Place.swift */; };
+		B8EB51852B7E2725001C7B73 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB51842B7E2725001C7B73 /* PlaceViewController.swift */; };
+		B8EB51872B7FA5DC001C7B73 /* CustomPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB51862B7FA5DC001C7B73 /* CustomPrimaryButton.swift */; };
+		B8EB51892B7FAAD2001C7B73 /* CustomImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB51882B7FAAD2001C7B73 /* CustomImageButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +132,16 @@
 		B8EB512B2B7CB5EE001C7B73 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		B8EB512C2B7CB5EE001C7B73 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		B8EB51622B7CB708001C7B73 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B8EB51762B7E0C63001C7B73 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		B8EB51772B7E0C63001C7B73 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		B8EB517A2B7E0D39001C7B73 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8EB517B2B7E0D39001C7B73 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		B8EB517E2B7E0D4C001C7B73 /* PlacesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCollectionViewCell.swift; sourceTree = "<group>"; };
+		B8EB517F2B7E0D4C001C7B73 /* PlacesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacesCollectionViewCell.xib; sourceTree = "<group>"; };
+		B8EB51822B7E0EBF001C7B73 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		B8EB51842B7E2725001C7B73 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		B8EB51862B7FA5DC001C7B73 /* CustomPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrimaryButton.swift; sourceTree = "<group>"; };
+		B8EB51882B7FAAD2001C7B73 /* CustomImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +265,7 @@
 			children = (
 				B8EB50842B7C7A16001C7B73 /* ViewController.swift */,
 				B8EB51622B7CB708001C7B73 /* MainViewController.swift */,
+				B8EB51842B7E2725001C7B73 /* PlaceViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -252,6 +273,10 @@
 		B8EB51612B7CB6B4001C7B73 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				B8EB51862B7FA5DC001C7B73 /* CustomPrimaryButton.swift */,
+				B8EB51882B7FAAD2001C7B73 /* CustomImageButton.swift */,
+				B8EB51752B7E0BE4001C7B73 /* CollectionCells */,
+				B8EB51742B7E0645001C7B73 /* TableCells */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -266,8 +291,29 @@
 		B8EB51652B7CB844001C7B73 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B8EB51822B7E0EBF001C7B73 /* Place.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B8EB51742B7E0645001C7B73 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				B8EB51762B7E0C63001C7B73 /* CollectionTableViewCell.swift */,
+				B8EB51772B7E0C63001C7B73 /* CollectionTableViewCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		B8EB51752B7E0BE4001C7B73 /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				B8EB517A2B7E0D39001C7B73 /* CategoriesCollectionViewCell.swift */,
+				B8EB517B2B7E0D39001C7B73 /* CategoriesCollectionViewCell.xib */,
+				B8EB517E2B7E0D4C001C7B73 /* PlacesCollectionViewCell.swift */,
+				B8EB517F2B7E0D4C001C7B73 /* PlacesCollectionViewCell.xib */,
+			);
+			path = CollectionCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +381,7 @@
 				B8EB508D2B7C7A18001C7B73 /* LaunchScreen.storyboard in Resources */,
 				B8EB51542B7CB5EE001C7B73 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 				B8EB513C2B7CB5EE001C7B73 /* SF-Pro-Display-Heavy.otf in Resources */,
+				B8EB51792B7E0C63001C7B73 /* CollectionTableViewCell.xib in Resources */,
 				B8EB51532B7CB5EE001C7B73 /* SF-Pro-Text-Semibold.otf in Resources */,
 				B8EB51442B7CB5EE001C7B73 /* SF-Pro-Text-Ultralight.otf in Resources */,
 				B8EB512F2B7CB5EE001C7B73 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
@@ -353,6 +400,7 @@
 				B8EB51482B7CB5EE001C7B73 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 				B8EB51322B7CB5EE001C7B73 /* SF-Pro-Text-Heavy.otf in Resources */,
 				B8EB508A2B7C7A18001C7B73 /* Assets.xcassets in Resources */,
+				B8EB51812B7E0D4C001C7B73 /* PlacesCollectionViewCell.xib in Resources */,
 				B8EB51552B7CB5EE001C7B73 /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				B8EB50882B7C7A16001C7B73 /* Main.storyboard in Resources */,
 				B8EB514D2B7CB5EE001C7B73 /* SF-Pro-Text-ThinItalic.otf in Resources */,
@@ -371,6 +419,7 @@
 				B8EB51332B7CB5EE001C7B73 /* SF-Pro-Display-RegularItalic.otf in Resources */,
 				B8EB51452B7CB5EE001C7B73 /* SF-Pro-Text-Bold.otf in Resources */,
 				B8EB512D2B7CB5EE001C7B73 /* SF-Pro-Italic.ttf in Resources */,
+				B8EB517D2B7E0D39001C7B73 /* CategoriesCollectionViewCell.xib in Resources */,
 				B8EB51492B7CB5EE001C7B73 /* SF-Pro-Display-Ultralight.otf in Resources */,
 				B8EB51432B7CB5EE001C7B73 /* SF-Pro-Text-Regular.otf in Resources */,
 				B8EB513F2B7CB5EE001C7B73 /* SF-Pro-Display-Semibold.otf in Resources */,
@@ -389,10 +438,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EB517C2B7E0D39001C7B73 /* CategoriesCollectionViewCell.swift in Sources */,
+				B8EB51782B7E0C63001C7B73 /* CollectionTableViewCell.swift in Sources */,
 				B8EB50852B7C7A16001C7B73 /* ViewController.swift in Sources */,
+				B8EB51852B7E2725001C7B73 /* PlaceViewController.swift in Sources */,
+				B8EB51892B7FAAD2001C7B73 /* CustomImageButton.swift in Sources */,
+				B8EB51832B7E0EBF001C7B73 /* Place.swift in Sources */,
+				B8EB51872B7FA5DC001C7B73 /* CustomPrimaryButton.swift in Sources */,
 				B8EB50812B7C7A16001C7B73 /* AppDelegate.swift in Sources */,
 				B8EB50832B7C7A16001C7B73 /* SceneDelegate.swift in Sources */,
 				B8EB51632B7CB708001C7B73 /* MainViewController.swift in Sources */,
+				B8EB51802B7E0D4C001C7B73 /* PlacesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
