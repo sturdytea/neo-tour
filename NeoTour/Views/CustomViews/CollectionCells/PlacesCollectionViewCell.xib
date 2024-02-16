@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PlacesCollectionViewCell" id="gTV-IL-0wX" customClass="PlacesCollectionViewCell" customModule="NeoTour" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="254"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="254"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOF-dE-cUT">
+                        <rect key="frame" x="0.0" y="0.0" width="335" height="254"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label (back)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjp-o4-cWr">
+                        <rect key="frame" x="0.0" y="198" width="335" height="56"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="44G-N0-xol"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H45-GA-9Ie">
+                        <rect key="frame" x="16" y="214" width="319" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="n9x-se-kL3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mjp-o4-cWr" secondAttribute="bottom" id="4ba-fc-A2I"/>
+                <constraint firstItem="jOF-dE-cUT" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="7nt-5K-d76"/>
+                <constraint firstItem="mjp-o4-cWr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LxQ-gi-MYS"/>
+                <constraint firstItem="jOF-dE-cUT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Wze-Xs-dJZ"/>
+                <constraint firstAttribute="trailing" secondItem="H45-GA-9Ie" secondAttribute="trailing" id="bh6-Sd-67j"/>
+                <constraint firstItem="H45-GA-9Ie" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="e34-4b-PCY"/>
+                <constraint firstAttribute="bottom" secondItem="H45-GA-9Ie" secondAttribute="bottom" constant="16" id="ecp-jd-6Js"/>
+                <constraint firstItem="jOF-dE-cUT" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="pdu-OY-zcf"/>
+                <constraint firstItem="jOF-dE-cUT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pp9-Du-rC7"/>
+                <constraint firstItem="mjp-o4-cWr" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="ude-eO-z8e"/>
+            </constraints>
+            <size key="customSize" width="444" height="356"/>
+            <connections>
+                <outlet property="placeImageButton" destination="jOF-dE-cUT" id="tPw-8k-fAV"/>
+                <outlet property="placeLabel" destination="H45-GA-9Ie" id="7Gr-GO-hID"/>
+            </connections>
+            <point key="canvasLocation" x="-264.12213740458014" y="126.05633802816902"/>
+        </collectionViewCell>
+    </objects>
+</document>
